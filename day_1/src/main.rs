@@ -42,6 +42,6 @@ fn main() {
 		max_elves_loads = get_new_max_elves_loads(&max_elves_loads, current_elf_load);
 	}
 	
-	print!("result part 1: {}\n", *max_elves_loads.first().unwrap());
-	print!("result part 2: {}\n", max_elves_loads.iter().sum::<u32>());
+	println!("result part 1: {}", *max_elves_loads.first().unwrap());
+	println!("result part 2: {}", max_elves_loads.iter().sum::<u32>());
 }

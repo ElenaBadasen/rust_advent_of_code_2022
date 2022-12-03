@@ -86,6 +86,6 @@ fn main() {
 		user_input = String::new();
 	}
     
-    print!("result part 1: {}\n", score);
-    print!("result part 2: {}\n", score_part_2);
+    println!("result part 1: {}", score);
+    println!("result part 2: {}", score_part_2);
 }
